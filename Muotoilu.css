@@ -1,144 +1,153 @@
   
  
  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap')
-;
-  
-  html, body {
-    margin: 0;
-    padding: 0;
+ ;
+   
+   html, body {
+     margin: 0;
+     padding: 0;
+    }
+ 
+     .otsikko {
+         
+         background-image: url("kansi.jpg");
+         background-position: center;
+         background-size: cover;
+         opacity: 0.8;
+         margin: 0px;
+         
+     }
+ 
+     .otsikko h1 {
+         font-family: "Protest Riot", sans-serif;
+         font-weight: 200;
+         font-size: 80px;
+         text-align: right;
+         color: #FFFF;
+         padding: 30px 40px 30px 80px;
+         margin: 0px;
+     
+     }
+ 
+     .otsikko h2 {
+         font-family: "Fira Sans", sans-serif;
+         font-size: 20px;
+         text-align: right;
+         color: black;
+         padding: 10px 40px 40px 80px;
+     }
+ 
+     img {
+         max-width: 90%;
+         height: auto;
+         padding: 20px;
+         
+     }
+ 
+     .teksti {
+     font-family: "Fira Sans", sans-serif;
+     font-size: 18px;
+     line-height: 20px;
+     padding: 15px;
+     margin: 10px;
+     width: 90%;
+     
+   }
+   
+   .pohja {
+     font-family: "Fira Sans", sans-serif;
+     background-color: aquamarine;
+     background-size: cover;
+     background-position: center;
+     padding: 10px;
+     margin-top: 20px;
+     float: left;
+     width: 100%;
+     
+   }
+   .pohja p {
+     font-family: "Fira Sans", sans-serif;
+     font-size: 20px;
+     text-align: right;
+     margin: 0px;
+     padding-right: 40px;
+   }
+ 
+   .freia  {
+     max-width: 100%;
+     float: left;
+     text-align: center;
+     padding: auto;
+ 
+   }
+   .freia p {
+     font-family: "Fira Sans", sans-serif;
+     font-size: 16px;
+     padding: 10px;
+     margin: auto;
+     width: 90%;
+   }
+ .fili {
+     max-width: 100%;
+     text-align: center;
+     vertical-align: top;
+     display: inline-block;
+     
+ }
+ 
+ .fili p {
+   font-family: "Fira Sans", sans-serif;
+     font-size: 16px;
+     padding: 10px;
+     margin: auto;
+     width: 90%;
+ }
+ .fili h2 p {
+     display: block;
+ }
+ .image {
+     opacity: 1;
+     display: block;
+     width: 100%;
+     height: auto;
+     transition: .5s ease;
+     backface-visibility: hidden;
+   }
+ 
+   
+   .fili:hover .image {
+     opacity: 0.3;
+   }
+ 
+   .freia:hover .image {
+     opacity: 0.3;
+   }
+   
+ 
+   label {
+     display: block;
+     width: 5em;
+     float: left;
+ }
+ 
+ @media only screen and (max-width: 800px) {
+     .otsikko h1 {
+         font-size: 50px;
+     }
+   }
+ 
+   @media only screen and (min-width: 1025px) {
+     .otsikko h2 {
+         padding: 50px 40px 40px 80px;
+     }
    }
 
-    .otsikko {
-        
-        background-image: url("kansi.jpg");
-        background-position: center;
-        background-size: cover;
-        opacity: 0.8;
-        margin: 0px;
-        
-    }
-
-    .otsikko h1 {
-        font-family: "Protest Riot", sans-serif;
-        font-weight: 200;
-        font-size: 80px;
-        text-align: right;
-        color: #FFFF;
-        padding: 30px 40px 30px 80px;
-        margin: 0px;
-    
-    }
-
-    .otsikko h2 {
-        font-family: "Fira Sans", sans-serif;
-        font-size: 20px;
-        text-align: right;
-        color: black;
-        padding: 10px 40px 40px 80px;
-    }
-
+   @media only screen and (min-width: 1200px) {
     img {
-        max-width: 90%;
-        height: auto;
-        float: left ;
-        padding: 20px;
-        
-    }
-
-    .teksti {
-    font-family: "Fira Sans", sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    padding: 15px;
-    margin: 10px;
-    width: 90%;
-    
-  }
   
-  .pohja {
-    font-family: "Fira Sans", sans-serif;
-    background-color: aquamarine;
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
-    margin-top: 20px;
-    float: left;
-    width: 100%;
+      float: left ;
+     
+  }
+
     
-  }
-  .pohja p {
-    font-family: "Fira Sans", sans-serif;
-    font-size: 20px;
-    text-align: right;
-    margin: 0px;
-    padding-right: 40px;
-  }
-
-  .freia  {
-    max-width: 100%;
-    float: left;
-    text-align: center;
-    padding: auto;
-
-  }
-  .freia p {
-    font-family: "Fira Sans", sans-serif;
-    font-size: 16px;
-    padding: 10px;
-    margin: auto;
-    width: 90%;
-  }
-.fili {
-    max-width: 100%;
-    text-align: center;
-    vertical-align: top;
-    display: inline-block;
-    
-}
-
-.fili p {
-  font-family: "Fira Sans", sans-serif;
-    font-size: 16px;
-    padding: 10px;
-    margin: auto;
-    width: 90%;
-}
-.fili h2 p {
-    display: block;
-}
-.image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-
-  
-  .fili:hover .image {
-    opacity: 0.3;
-  }
-
-  .freia:hover .image {
-    opacity: 0.3;
-  }
-  
-
-  label {
-    display: block;
-    width: 5em;
-    float: left;
-}
-
-@media only screen and (max-width: 800px) {
-    .otsikko h1 {
-        font-size: 50px;
-    }
-  }
-
-  @media only screen and (min-width: 1025px) {
-    .otsikko h2 {
-        padding: 50px 40px 40px 80px;
-    }
   }
