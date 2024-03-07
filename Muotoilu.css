@@ -86,7 +86,7 @@
      padding: 10px;
      margin: auto;
      width: 90%;
-     width: 400px;
+     max-width: 400px;
    }
  .fili {
      max-width: 100%;
@@ -101,7 +101,7 @@
      font-size: 18px;
      padding: 10px;
      margin: auto;
-     width: 400px;
+     max-width: 400px;
      text-align: center;
  }
  .fili h2 p {
