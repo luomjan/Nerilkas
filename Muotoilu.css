@@ -67,7 +67,7 @@
    }
    .pohja p {
      font-family: "Fira Sans", sans-serif;
-     font-size: 20px;
+     font-size: 15px;
      text-align: right;
      margin: 0px;
      padding-right: 40px;
@@ -82,7 +82,7 @@
    }
    .freia p {
      font-family: "Fira Sans", sans-serif;
-     font-size: 16px;
+     font-size: 18px;
      padding: 10px;
      margin: auto;
      width: 90%;
@@ -98,7 +98,7 @@
  
  .fili p {
    font-family: "Fira Sans", sans-serif;
-     font-size: 16px;
+     font-size: 18px;
      padding: 10px;
      margin: auto;
      width: 400px;
@@ -110,10 +110,11 @@
  .image {
      opacity: 1;
      display: block;
-     width: 100%;
+     width: 90%;
      height: auto;
      transition: .5s ease;
      backface-visibility: hidden;
+     padding: 20px;
    }
  
    
@@ -124,13 +125,7 @@
    .freia:hover .image {
      opacity: 0.3;
    }
-   
- 
-   label {
-     display: block;
-     width: 5em;
-     float: left;
- }
+  
 
  .lomake {
   padding: 20px;
