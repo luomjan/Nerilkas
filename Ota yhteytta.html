@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Ota yhteyttä</title>
+    <link rel="stylesheet" href="Muotoilu.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>    
+
+<body>
+    <div class="otsikko">
+        <h1> Nerilka's </h1>
+        
+    
+        
+        <h2><a href="./">Home</a> |  <a href="./Koiramme">Koiramme</a>   |  Ota yhteyttä</h2>
+        
+        </div>
+
+    
+
+    <div class="teksti">
+    <p> Hei, jos haluat ottaa yhteyttä minuun ja kysellä tarkemmin, niin laita yhteistietosi lomakkeeseen, niin otan sinuun yhteyttä. 
+        Aina voi myös koputtaa olkapäähän, jos jossain näkee!</p>
+ </div>
+
+
+
+<div class="kuva">
+<img src ="loppu.jpg" alt="yhteiskuva">
+
+</div>
+<div class="lomake">
+    
+    <h3>Ota yhteyttä</h3> 
+
+    <form>
+        <p></p>
+        <label></label>
+        <input type="text" required id="nimi" size="20" placeholder="Etunimi, Sukunimi"><br>
+        <p></p>
+        <label></label>
+        <input type="text" required id="sposti" size="20" placeholder="Sähköposti"><br>
+
+        
+        <!--<p></p><label></label>
+        <input type="text" required id="viesti" size="200" placeholder="Viesti"><br>
+        -->
+        <p></p>
+        <input type="button" id="painike" value="Lähetä" onclick="laheta()">
+    </form>
+
+    <p id="vastaus"></p>
+
+    <script>
+        function laheta() {
+            let nimi = document.getElementById("nimi").value;
+            let sposti = document.getElementById("sposti").value;
+
+            
+
+            document.getElementById("vastaus").innerHTML = "Lomake ei vielä toimi, mutta ota yhteyttä nerilkas@hotmail.com!" ;
+           
+        }
+    </script></div>
+
+<div class="pohja">
+    <p>Copyright@ Janette Luomala</p>
+  </div>
+</body>
+
+</html>

@@ -118,14 +118,16 @@
    }
  
    
-   .fili:hover .image {
+   .image:hover  {
      opacity: 0.3;
    }
+ .piilotettu {
+  opacity: 0;
+ }
+ .image:hover .piilotettu {
+  opacity: 1;
+ }
  
-   .freia:hover .image {
-     opacity: 0.3;
-   }
-  
 
  .lomake {
   padding: 20px;
