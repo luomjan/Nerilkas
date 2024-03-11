@@ -75,18 +75,20 @@
  
    /*Vasemman palstan muotoilu*/
    .freiat  {
-    padding: 20px;
-     text-align: center;
+    padding: 0px;
+     box-align: center;
      display: inline-block;
      
    }
    .freiat p {
-     font-family: "Fira Sans", sans-serif;
-     font-size: 18px;
-     padding: 10px;
-     margin: auto;
-     width: 90%;
-     max-width: 400px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    max-width: 392px;
+    text-align: center;
+    display: block;
    }
    .freiat h2 {
     font-family: "Fira Sans", sans-serif;
@@ -95,7 +97,9 @@
      padding: 12px;
      margin: auto;
      width: 90%;
-     max-width: 400px;
+     max-width: 392px;
+     text-align: center;
+     display: block;
 
    }
    .freiat h4 {
@@ -103,7 +107,7 @@
       font-size: 16px;
       padding: 10px;
       margin: auto;
-      max-width: 400px;
+      max-width: 392px;
       text-align: center;
       display: block;
       font-weight: 300;
@@ -111,7 +115,7 @@
    .freia {
      opacity: 1;
      display: block;
-     max-width: 100%;
+     max-width: 90%;
      height: auto;
      transition: .5s ease;
      backface-visibility: hidden;
@@ -123,7 +127,7 @@
    /* oikean palstan muotoilu*/
  .filit {
     
-     padding: 20px;
+     padding: 0px;
      box-align: center;
      display: inline-block;
      
@@ -136,40 +140,42 @@
      padding: 10px;
      margin: auto;
      width: 90%;
-     max-width: 400px;
+     max-width: 392px;
      text-align: center;
      display: block;
  }
  
  .filit h2 {
-  font-family: "Fira Sans", sans-serif;
-  color: #FF9F1C;
-    font-size: 20px;
-    padding: 12px;
-    margin: auto;
-    max-width: 400px;
-    text-align: center;
     display: block;
+    font-family: "Fira Sans", sans-serif;
+    color: #FF9F1C;
+     font-size: 22px;
+     padding: 12px;
+     margin: auto;
+     width: 90%;
+     max-width: 392px;
+     text-align: center;
 }
 .filit h4 {
-  font-family: "Fira Sans", sans-serif;
-    font-size: 16px;
-    padding: 10px;
-    margin: auto;
-    max-width: 400px;
-    text-align: center;
-    display: block;
-    font-weight: 300;
+    font-family: "Fira Sans", sans-serif;
+      font-size: 16px;
+      padding: 10px;
+      margin: auto;
+      max-width: 392px;
+      text-align: center;
+      display: block;
+      font-weight: 300;
 }
  
  
    .fili {
+    
     opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
+     display: block;
+     max-width: 90%;
+     height: auto;
+     transition: .5s ease;
+     backface-visibility: hidden;
     
     
   }
