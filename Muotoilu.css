@@ -75,9 +75,9 @@
  
    .freia  {
      max-width: 100%;
-     float: left;
+     
      text-align: center;
-     padding: auto;
+     
  
    }
    .freia p {
@@ -148,9 +148,8 @@
      }
    }
 
-   @media only screen and (min-width: 1200px) {
-    img {
-  
+   @media only screen and (min-width: 1500px) {
+    .freia {
       float: left ;
      
   }
