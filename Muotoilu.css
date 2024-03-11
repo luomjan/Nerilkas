@@ -33,16 +33,16 @@
          font-family: "Fira Sans", sans-serif;
          font-size: 20px;
          text-align: right;
-         color: black;
-         padding: 10px 40px 40px 80px;
+         color: #FFFF;
+         padding: 10px 40px 20px 80px;
      }
  
      img {
-         max-width: 90%;
-         height: auto;
-         padding: 20px;
-         
-     }
+      max-width: 90%;
+      height: auto;
+      padding: 20px;
+      
+  }
  
      .teksti {
      font-family: "Fira Sans", sans-serif;
@@ -73,14 +73,14 @@
      padding: 10px;
    }
  
-   .freia  {
-     max-width: 100%;
-     
+   /*Vasemman palstan muotoilu*/
+   .freiat  {
+    padding: 20px;
      text-align: center;
+     display: inline-block;
      
- 
    }
-   .freia p {
+   .freiat p {
      font-family: "Fira Sans", sans-serif;
      font-size: 18px;
      padding: 10px;
@@ -88,45 +88,95 @@
      width: 90%;
      max-width: 400px;
    }
- .fili {
+   .freiat h2 {
+    font-family: "Fira Sans", sans-serif;
+    color: #FF9F1C;
+     font-size: 22px;
+     padding: 12px;
+     margin: auto;
+     width: 90%;
+     max-width: 400px;
+
+   }
+   .freiat h4 {
+    font-family: "Fira Sans", sans-serif;
+      font-size: 16px;
+      padding: 10px;
+      margin: auto;
+      max-width: 400px;
+      text-align: center;
+      display: block;
+      font-weight: 300;
+  }
+   .freia {
+     opacity: 1;
+     display: block;
      max-width: 100%;
-     text-align: center;
-     vertical-align: top;
+     height: auto;
+     transition: .5s ease;
+     backface-visibility: hidden;
+     
+   }
+   .freia:hover  {
+     opacity: 0.3;
+   }
+   /* oikean palstan muotoilu*/
+ .filit {
+    
+     padding: 20px;
+     box-align: center;
      display: inline-block;
      
- }
+    }
+    
  
- .fili p {
+ .filit p {
    font-family: "Fira Sans", sans-serif;
      font-size: 18px;
      padding: 10px;
      margin: auto;
+     width: 90%;
      max-width: 400px;
      text-align: center;
- }
- .fili h2 p {
      display: block;
  }
- .image {
-     opacity: 1;
-     display: block;
-     width: 90%;
-     height: auto;
-     transition: .5s ease;
-     backface-visibility: hidden;
-     padding: 20px;
-   }
  
-   
-   .image:hover  {
-     opacity: 0.3;
-   }
- .piilotettu {
-  opacity: 0;
- }
- .image:hover .piilotettu {
-  opacity: 1;
- }
+ .filit h2 {
+  font-family: "Fira Sans", sans-serif;
+  color: #FF9F1C;
+    font-size: 20px;
+    padding: 12px;
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    display: block;
+}
+.filit h4 {
+  font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    display: block;
+    font-weight: 300;
+}
+ 
+ 
+   .fili {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+    
+  }
+  
+   .fili:hover  {
+    opacity: 0.3;
+  }
  
 
  .lomake {
@@ -146,13 +196,16 @@
         font-size: 25px;
         padding: 50px 40px 40px 80px;
      }
+     
    }
 
    @media only screen and (min-width: 1500px) {
-    .freia {
+    .freiat {
       float: left ;
-     
-  }
+     }
+  img {
+      float: left;
+     }
 
     
   }
